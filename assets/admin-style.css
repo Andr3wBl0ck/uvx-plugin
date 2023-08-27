@@ -1,0 +1,122 @@
+.plugin-menu ul li{
+    display: inline-block;
+}
+
+h1 {
+    color: blue !important;
+}
+
+.plugin-menu a {
+    text-decoration: none  !important;
+}
+
+.user-card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.user-card-link {
+    text-decoration: none;
+    color: inherit;
+    width: 200px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 15px;
+    display: inline-block;
+    transition: all 0.3s ease;
+    box-shadow: 0 .5px .5px rgba(0, 0, 0, 0.1);
+    
+}
+
+.user-card-link:hover {
+    transform: scale(1.05);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+  }
+
+.user-card-link.admin {
+    background-color: #e6ffe6; /* Light green background for admin */
+    border-color: #00cc00; /* Green border for admin */
+}
+
+.user-card {
+    width: 100%;
+}
+
+
+
+
+.admin-button {
+    background-color: #00cc00; /* Green */
+    color: black;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.last-login-section {
+    color:chocolate;
+    font-weight: bold;
+}
+
+.role-display {
+    background-color: blue;
+    width: 50%;
+    color: white;
+    padding: 5px 5px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight:bold;
+}
+
+.email-class {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.edit-user-icon {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black */
+    color: white;
+    padding: 5px;
+    z-index: 1; /* Make sure it appears above the card content */
+  }
+  
+  /* Show the edit icon when user card is hovered */
+  .user-card:hover .edit-user-icon {
+    display: block;
+  }
+
+/* Pagination Styling */
+
+.pagination {
+    margin-top: 20px;  /* Adds space above the pagination */
+    text-align: center;  /* Centers the pagination */
+}
+  
+  
+  .pagination a {
+    margin: 0 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-decoration: none;
+  }
+  .pagination a.active {
+    background-color: #0073aa;
+    color: white;
+    border-color: #0073aa;
+  }
+  
+  .white-icon {
+    color: white !important;
+  }
+
+.body {
+  background-color: red;
+}
